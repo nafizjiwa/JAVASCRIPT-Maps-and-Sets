@@ -61,7 +61,7 @@ ws.add("Alan");
 
 | Feature | Map | WeakMap |
 |--------|------|----------|
-|created|newMap()|newWeakMap()|
+|created|new Map()|new WeakMap()|
 | **Key Types** | Any type (objects, primitives, functions) | Objects only |
 | **Memory Behavior** | Keys persist until removed | Keys removed automatically when unreferenced |
 | **Iteration** | Fully iterable | Not iterable |

@@ -67,8 +67,6 @@ ws.add("Alan");
 | **Size Tracking** | Has `size` | No `size` |
 | **Use Case** | General key‑value storage | Private data tied to object lifetimes |
 |**Methods**|`set()`, `get()`, `has()`, `delete()`, `clear()`, `entries()`, `forEach()` |`set()`, `get()`, `has()`, `delete()`|
+|**Core Idea**|Use a **Map** for flexibility and iteration. |Use a **WeakMap** for memory‑safety, object‑bound data that disappears|
 ---
-### 🧠 Core Idea  
-Use a **Map** when you need flexibility and iteration.  
-Use a **WeakMap** when you want memory‑safe, object‑bound data that disappears automatically.
 

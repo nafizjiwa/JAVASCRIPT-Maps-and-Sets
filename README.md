@@ -66,7 +66,7 @@ ws.add("Alan");
 | **Iteration** | Fully iterable | Not iterable |
 | **Size Tracking** | Has `size` | No `size` |
 | **Use Case** | General key‑value storage | Private data tied to object lifetimes |
-|**Methods**|`set()`, `get()`, `has()`, `delete()`, `clear()`, `entries()`, `forEach()` |`set()`, `get()`, `has()`, `delete()`|
+|**Methods**|`set(key, value)`, `get(key)`, `has(key)`, `delete(key)`, `clear(all key/value)`, `entries(check)`, `forEach()`, `size` |`set()`, `get()`, `has()`, `delete()`|
 |**Core Idea**|Use a **Map** for flexibility and iteration. |Use a **WeakMap** for memory‑safety, object‑bound data that disappears|
 ---
 

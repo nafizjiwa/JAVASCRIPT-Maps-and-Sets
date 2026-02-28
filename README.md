@@ -68,6 +68,7 @@ ws.add("Alan");
 | **Size Tracking** | Has `size` | No `size` |
 | **Use Case** | General key‑value storage | Private data tied to object lifetimes |
 |**Methods**|`set(key, value)`, `get(key)`, `has(key)`, `delete(key)`, `clear(all key/value)`, `entries(check)`, `forEach()`, `size` |`set()`, `get()`, `has()`, `delete()`|
+|Take the Map -> Map.get(objectKey)|change its values| nameRetrievedObj.nameoOjProperty = propertyValue;|
 |**Core Idea**|Use a **Map** for flexibility and iteration. |Use a **WeakMap** for memory‑safety, object‑bound data that disappears|
 ---
 

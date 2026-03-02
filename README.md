@@ -79,7 +79,7 @@ ws.add("Alan");
 | **Set()** | manages a **collection of unique values** | `const set = new Set([1, 2, 3, 4, 5]);` | Primitives or objects | `add`, `delete`, `has`, `clear`, `forEach`; insertion order preserved | Fully iterable (`for…of`, `keys`, `values`) | Strong references (values stay until removed) |
 | **WeakSet** | A collection of **weakly held object references** |`const ws = new WeakSet([obj1, obj2]);` | **Only objects** | `add`, `delete`, `has`; no `clear` or iteration | **Not iterable** | Weak references (objects removed automatically when unreferenced) |
 | **Map** | A built‑in object that holds **key–value pairs**, like an object but more flexible | `const map = new Map([ ['flower', 'rose'], ['fruit', 'apple'], ['vegetable', 'carrot'] ]);` | Keys of any type; values of any type | `set`, `get`, `delete`, `has`, `clear`, `forEach`; ordered keys | Fully iterable (`keys`, `values`, `entries`) | Strong references (keys stay until removed) |
-| **WeakMap** | A collection of **key–value pairs with weak object keys** | *(Your paragraph didn’t include a code example; this is the standard form)* `const wm = new WeakMap([[objKey, value]]);` | Keys must be **objects**; values any type | `set`, `get`, `delete`, `has`; no `clear` or iteration | **Not iterable** | Weak references (keys removed automatically when unreferenced) |
+| **WeakMap** | A collection of **key–value pairs with weak object keys** | `const wm = new WeakMap([[objKey, value]]);` | Keys must be **objects**; values any type | `set`, `get`, `delete`, `has`; no `clear` or iteration | **Not iterable** | Weak references (keys removed automatically when unreferenced) |
 
 ---
 
